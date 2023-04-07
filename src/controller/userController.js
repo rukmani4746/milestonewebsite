@@ -34,7 +34,7 @@ export const createUser = async ( req , res ) => {
 }
 
 
-export const loginController = async (req, res) => {
+export const loginUser = async (req, res) => {
     try {
        const { email, password } = req.body;
        if (!email || !password) {
